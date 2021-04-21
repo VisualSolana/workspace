@@ -6,6 +6,9 @@ name: Docker Image CI
       - main
     tags:
       - v*.*.*.
+  release:
+    types:
+      - published
 jobs:
   build:
     runs-on: ubuntu-latest
